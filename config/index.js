@@ -32,6 +32,7 @@ module.exports = config;
 
 config.swagger = {
   fileName: 'api/swagger/swagger.yaml',
+  yamlReferencedFilesFolder: 'api/swagger/',
   editorDir: path.resolve(config.nodeModules, 'swagger-editor'),
   editorConfig: {
     analytics: { google: { id: null } },
